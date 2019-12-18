@@ -6,6 +6,10 @@ Extensions around Tensorflow
 Various Version around Tensorflow Datsets.
 Check out [https://github.com/king-michael/numpy-extensions](https://github.com/king-michael/numpy-extensions) for more numpy options.
 
+
+* `create_dataset_from_listnpy(npy_files, num_features=None, dtype = tf.float32)` <br>
+    Creates a TFDataset from a list of npy files.
+
 * `NumpyDataset(npyfiles, dtype=None, verbose=False)` <br>
     Class that implements a numpy dataset 
     * `get_sample(self, percentage=None, n_samples=None, size=None, replace=False)` <br>
